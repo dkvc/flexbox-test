@@ -3,6 +3,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     margin: 0;
+    height:100vh;
+    display:flex; 
+    flex-direction:column; 
 }
 
 .header {
@@ -85,6 +88,8 @@ body {
     color: white;
 
     font-size: 13px;
+    min-height: 50px;
+    margin-top: auto; 
 }
 
 .footer p {
